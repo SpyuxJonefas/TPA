@@ -77,16 +77,19 @@ public class tpa1 {
     }
 
     private static boolean compararSimetria(int[][] m, int f1, int c1, int f2, int c2, int size) {
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
-                // Comparamos B[i][j] con C[j][i]
+        boolean esSimetrica = true;
+    
+        for (int i = 0; i < size && esSimetrica; i++) {
+            for (int j = 0; j < size && esSimetrica; j++) {
                 if (m[f1 + i][c1 + j] != m[f2 + j][c2 + i]) {
-                    return false;
+                    esSimetrica = false;
                 }
             }
         }
-        return true;
+    
+        return esSimetrica;
     }
+    
     
 
 
