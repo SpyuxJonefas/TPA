@@ -1,0 +1,36 @@
+/**
+ * EJERCICIO: Comprobación de simetría de matrices cuadradas mediante Divide y Vencerás
+ *
+ * Se desea implementar un algoritmo que verifique si una matriz cuadrada de dimensión N x N
+ * es simétrica respecto a su diagonal principal. Es decir, se debe comprobar que:
+ *     matriz[i][j] == matriz[j][i]  para todo par de índices i, j.
+ *
+ * Para resolver este problema, debe aplicarse el paradigma de Divide y Vencerás.
+ * La matriz se dividirá recursivamente en submatrices (bloques), y se comprobará que 
+ * las posiciones correspondientes cumplan con la propiedad de simetría.
+ *
+ * Requisitos:
+ * - La matriz debe ser cuadrada y de tamaño N x N, donde N sea potencia de 2.
+ * - Deben realizarse todas las validaciones necesarias (matriz nula, vacía, filas mal formadas).
+ * - El caso base se alcanza cuando el tamaño de la submatriz es 1x1.
+ * - Se debe implementar una función principal llamada esSimetrica_DV y una auxiliar recursiva.
+ *
+ * Ejemplos:
+ *
+ * int[][] matrizSimetrica = {
+ *     {1, 2, 3, 4},
+ *     {2, 5, 6, 7},
+ *     {3, 6, 8, 9},
+ *     {4, 7, 9, 10}
+ * };
+ * // esSimetrica_DV(matrizSimetrica) => true
+ *
+ * int[][] matrizNoSimetrica = {
+ *     {1, 2},
+ *     {3, 4}
+ * };
+ * // esSimetrica_DV(matrizNoSimetrica) => false
+ *
+ * El objetivo es diseñar una solución recursiva eficiente basada en Divide y Vencerás,
+ * incluyendo un conjunto de pruebas y el análisis de complejidad del algoritmo.
+ */
