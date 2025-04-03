@@ -1,0 +1,1 @@
+Codifica la función Producto, como una función recursiva sucesión de sumas. Y calcula la complejidad de funcionA, teniendo un for hasta x-1 partiendo de i=5

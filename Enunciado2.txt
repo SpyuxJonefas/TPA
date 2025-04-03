@@ -1,0 +1,3 @@
+Dado un array de tamaño N, siendo N potencia de 2, las primeras X posiciones incluyen números negativos, y las Y siguientes posiciones números positivos.
+Siendo X + Y = N, usando Divide y Vencerás, calcula cuántos números positivos hay en el array.
+Además, calcula su complejidad.
