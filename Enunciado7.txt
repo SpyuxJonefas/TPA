@@ -1,0 +1,2 @@
+Dado un array ordenado de enteros y un número x, implementa la búsqueda binaria recursiva para determinar si x está en el array.
+Después, analiza su complejidad
