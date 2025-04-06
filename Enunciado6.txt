@@ -1,0 +1,2 @@
+Haz una función recursiva que calcule la suma de todos los elementos de un array de tamaño n sin bucles, solo usando recursión.
+Calcula su complejidad.

@@ -1,0 +1,2 @@
+Implementa una función recursiva que, usando el método de Divide y Vencerás, cuente cuántos números positivos hay en un array.
+Calcula la complejidad utilizando el Teorema Maestro.
